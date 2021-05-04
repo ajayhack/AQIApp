@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AQI Test App</string>
+    <string name="please_wait">Please Wait…</string>
+    <string name="city">City</string>
+    <string name="aqi">AQI</string>
+    <string name="lastUpdated">Last Updated</string>
+    <string name="loading_aqi_data">Loading AQI Data.....</string>
+    <string name="updating_aqi_data">Refreshing AQI Data......</string>
+    <string name="backButton">Back Button</string>
+</resources>
