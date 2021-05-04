@@ -22,14 +22,33 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        release {
+            storeFile file('/home/ajay.thakur/Desktop/aqiApp.jks')
+            storePassword 'android1'
+            keyAlias 'android1'
+            keyPassword "android1"
+        }
+    }
+
     buildFeatures {
         viewBinding true
     }
 
     buildTypes {
         release {
+            minifyEnabled true
+            signingConfig signingConfigs.release
+            renderscriptDebuggable true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlignEnabled true
+            shrinkResources true
+
+        }
+
+        debug {
+            debuggable false
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
