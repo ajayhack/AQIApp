@@ -11,6 +11,7 @@ This is an AQI City Wise Showing App.
 1. MPAndroidChart Library - MPAndroidChart Library is used for Showing Graphical Realtime Bar Chart of 30seconds Interval to the user. 
 MPAndroidChart Library has been in development mode from a long time and it's more efficient and reliable compare to other third party charts lib for providing
 better user experience.
+2. I Have used MPAndroidChart Bar Chart for Displaying regular 30seconds interval AQI Data but we can also used Line Chart in it.
 
 #Application Architecture :-
 This is a Single Activity Application in which i have used fragments to display City Wise AQI Data List and Graphical RealTime View of Selected City AQI,
