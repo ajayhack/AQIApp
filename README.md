@@ -25,4 +25,6 @@ HashMap is used to remove Duplicates value and only store the updated value of p
 and then convert it in Minutes to check whether it updated in last few seconds , A minute ago or an hour ago.
 4.Android Core Component Handler is used to show regular 30seconds interval updates in AQI RealTime Graphical Views.
 
+#Note:- It took me 8-9 Hours to Build Features , UI , Some Method Test Case and Full App Testing for this App.
+
 That's it Please feel free to give your valuable feedback on this App.
